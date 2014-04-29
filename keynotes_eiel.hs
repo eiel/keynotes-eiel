@@ -23,7 +23,7 @@ createHtml = do
   return . toHtml . filter isPublicObject $ infos
     where
       isPublicObject S3.ObjectInfo { S3.objectKey = key } =
-        ".tar.gz" `T.isSuffixOf` key
+        ".zip" `T.isSuffixOf` key
 
 
 getObjectInfo :: IO [S3.ObjectInfo]
