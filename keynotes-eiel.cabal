@@ -57,7 +57,7 @@ executable keynotes_eiel
   -- other-extensions:    
   
   -- Other library packages from which modules are imported.
-  build-depends:       base >=4.6 && <4.7, time > 1.4.0, blaze-html > 0.5, shakespeare > 2.0, http-conduit > 1.9, bytestring > 0.10, text > 0.11, aws > 0.8
+  build-depends:       base >=4.7 && <4.8, time > 1.4.0, blaze-html > 0.5, shakespeare > 2.0, http-conduit > 1.9, bytestring > 0.10, text > 0.11, aws > 0.8
   
   -- Directories containing source files.
   -- hs-source-dirs:      

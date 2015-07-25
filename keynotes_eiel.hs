@@ -82,7 +82,7 @@ sampleInfo = do
    S3.objectETag = "etag",
    S3.objectSize = 100,
    S3.objectStorageClass = S3.Standard,
-   S3.objectOwner = S3.UserInfo {
+   S3.objectOwner = Just $ S3.UserInfo {
      S3.userId = "eiel",
      S3.userDisplayName = "eiel"
      }
